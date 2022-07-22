@@ -10,7 +10,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 50px;
+    padding: 5px 150px;
+    margin: 0;
 }
 
 ul {
@@ -27,4 +28,46 @@ a {
 
 a:hover {
     color: white;
+}
+
+.content {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    flex: auto;
+    padding: 20px 150px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.contenttext {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: normal;
+    flex-wrap: wrap;
+    margin: 5px 0;
+}
+
+.contentsignupbutton {
+    background-color: rgb(22, 98, 197);
+    color: white;
+    border-radius: 8px;
+    border:none;
+    text-align: center;
+    padding: 3px 10px;
+    margin: 0;
+}
+
+.contentsignupbutton:hover {
+    background-color: white;
+    color: rgb(22, 98, 197);
+}
+
+.contentimg {
+    width: 300px;
+    height: auto;
+    padding-left: 150px;
 }
