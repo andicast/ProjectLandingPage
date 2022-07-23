@@ -107,3 +107,21 @@ a:hover {
     color: grey;
     text-align: center;
 }
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.author {
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: bold;
+}
