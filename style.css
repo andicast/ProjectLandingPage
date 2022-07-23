@@ -63,11 +63,17 @@ a:hover {
 
 .contentsignupbutton {
     display: flex;
+    flex-shrink: 0;
     padding: 5px 15px;
     background-color: #3882f6;
     color: white;
     border: none;
     border-radius: 8px;
+}
+
+.contentsignupbutton:hover {
+    background-color: white;
+    color:#3882f6;
 }
 
 .randominformationtext {
@@ -122,6 +128,51 @@ a:hover {
 
 .author {
     align-self: flex-end;
+    font-size: 30px;
     font-style: normal;
     font-weight: bold;
+}
+
+.adcontainer {
+    display: flex;
+    padding: 75px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2f7af3;
+    padding: 20px 40px;
+    border-radius: 12px;
+    gap: 30px;
+}
+
+.adtext {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.adtext2 {
+    color: rgb(231, 225, 225);
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.adcontainersignupbutton {
+    display: flex;
+    flex-shrink: 0;
+    padding: 5px 15px;
+    background-color: #2f7af3;
+    color: white;
+    border: white solid 2px;
+    border-radius: 8px;
+}
+
+.adcontainersignupbutton:hover {
+    background-color: white;
+    color: #2f7af3;
 }
