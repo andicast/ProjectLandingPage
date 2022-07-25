@@ -178,3 +178,14 @@ a:hover {
     background-color: white;
     color: #2f7af3;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #1f2937;
+    color: white;
+    font-size: 12px;
+    padding: 20px;
+    margin-top: auto;
+}
