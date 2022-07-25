@@ -89,14 +89,16 @@ a:hover {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 100px;
 }
 
 .img_box {
     display: flex;
     flex-wrap: wrap;
-    width: 300px;
+    width: 25%;
     height: auto;
     justify-content: center;
 }
@@ -158,7 +160,7 @@ a:hover {
 
 .adtext2 {
     color: rgb(231, 225, 225);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
 }
 
